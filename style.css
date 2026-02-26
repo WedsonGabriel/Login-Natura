@@ -209,8 +209,8 @@ form {
     }
 
     .logo-mobile {
-        display: flex;
-        width: 150px;
+        display: block;
+        width: 100px;
         margin: 0 auto;
     }
 }
