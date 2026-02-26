@@ -18,9 +18,13 @@ A ideia principal deste projeto foi criar uma página de login responsiva e tota
 A paleta de cores foi escolhida para remeter à marca, mantendo um visual limpo e profissional. Abaixo estão as cores principais que compõem o design:
 
 | **Laranja Principal** | #eb6618 | Botões de ação e destaques |
+
 | **Laranja Secundário** | #f77b33 | Brilho dos cards |
+
 | **Branco** | #f6f6f6 | Fundo dos formulários/cards e fundo da página|
+
 | **Preto** | #000000 | Textos indicativos |
+
 | **Cor do Placeholder** | #777474 | Textos de exemplo nos campos de preenchimento |
 
 ## 📱 Responsividade (Previews)
