@@ -21,7 +21,7 @@ A paleta de cores foi escolhida para remeter à marca, mantendo um visual limpo 
 
 | **Laranja Secundário** | #f77b33 | Brilho dos cards |
 
-| **Branco** | #f6f6f6 | Fundo dos formulários/cards e fundo da página|
+| **Branco** | #f6f6f6 | Fundo dos formulários/cards e fundo da página |
 
 | **Preto** | #000000 | Textos indicativos |
 
