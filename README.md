@@ -31,4 +31,4 @@ O layout foi construído para garantir uma boa experiência de navegação em qu
 ![Preview da Tela no Desktop](/read.me/Imagens%20read.me/preview-desktop.png)
 
 ### 📱 Versão Mobile
-![Preview da Tela no Celular](/read.me/Imagens%20read.me/preview-mobile.jpg)
+<img src="/read.me/Imagens%20read.me/preview-mobile.jpg" alt="Preview da Tela no Celular" width="100">
