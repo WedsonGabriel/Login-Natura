@@ -1,0 +1,219 @@
+:root {
+    --laranja: #eb6618;
+    --branco: #f6f6f6;
+    --preto: #000000;
+    --placeholder: #777474;
+    --hover: #f77b33;
+}
+
+/* #region predefinições */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#grid {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h5 {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+
+.logo-natura {
+    max-width: 450px;
+    transition: 1.0s ease;
+}
+
+.logo-natura:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    /* border: 2px solid blue; */
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#capa {
+    background-color: var(--laranja);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title-login {
+    padding-bottom: 40px;   
+    width: 400px;
+    text-align: left;
+}
+/* #endregion */
+
+/* #region email */
+.area-email {
+    width: 400px;
+    height: 60px;
+    background-color: var(--branco);
+    border: 2px solid var(--laranja);
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.area-email:focus {
+    box-shadow: 0 0 8px #f77b3379;
+}
+
+.area-email::placeholder {
+    color: var(--placeholder);
+}
+/* #endregion */
+
+/* #region senha */
+.area-senha {
+    width: 400px;
+    height: 60px;
+    background-color: var(--branco);
+    border: 2px solid var(--laranja);
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.area-senha:focus {
+    box-shadow: 0 0 8px #f77b3379;
+}
+
+.area-senha::placeholder {
+    color: var(--placeholder);
+}
+
+.esqueci-senha {
+    display: inline-block;
+    color: var(--laranja);
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.esqueci-senha:hover {
+    color: var(--hover);
+    text-decoration: underline;
+}
+/* #endregion */
+
+/* #region submit */
+.entrar-cadastrar {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.area-enter {
+    width: 400px;
+    height: 60px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid var(--laranja);
+    border-radius: 10px;
+}
+
+.area-enter:hover {
+    background-color: #f77b33;
+}
+
+.area-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color: var(--branco);
+    color: var(--laranja);
+    border: 2px solid var(--laranja);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.area-cadastro:hover {
+    color: #f77b33;
+}
+
+/* #endregion */
+
+/* #region responsividade */
+@media (max-width: 768px) {
+    #capa {
+        display: none;
+    }
+
+    #grid {
+        grid-template-columns: 1fr;
+    }
+
+    #login {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    form, .email, .senha, .entrar-cadastrar {
+        width: 100%;
+    }
+
+    .title-login, .area-email, .area-senha, .area-enter, .area-cadastro {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .logo-mobile {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        position: absolute;
+        top: 80px ;
+    }
+}
+/* #endregion */
