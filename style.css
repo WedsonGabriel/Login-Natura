@@ -195,8 +195,11 @@ form {
     }
 
     .container {
+        display: flex;
+        justify-content: flex-start;
         width: 90%;
         max-width: 400px;
+        padding-top: 50px;
     }
 
     form, .email, .senha, .entrar-cadastrar {
