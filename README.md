@@ -28,11 +28,7 @@ A paleta de cores foi escolhida para remeter à marca, mantendo um visual limpo 
 O layout foi construído para garantir uma boa experiência de navegação em qualquer dispositivo. Veja como o design se adapta:
 
 ### 💻 Versão Desktop
-![Preview da Tela no Desktop](/Imagens%20read.me/preview-desktop.png)
+![Preview da Tela no Desktop](/Imagens read.me/preview-desktop.png)
 
 ### 📱 Versão Mobile
-<<<<<<<< HEAD:read.md
 <img src="/Imagens read.me/preview-mobile.jpg" alt="Preview da Tela no Celular" width="250">
-========
-<img src="/read.me/Imagens%20read.me/preview-mobile.jpg" alt="Preview da Tela no Celular" width="250">
->>>>>>>> e9b0a80d48e1182f0dd9e64278e54e42e22d7034:README.md
